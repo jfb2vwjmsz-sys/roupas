@@ -1,0 +1,71 @@
+/* Estilo geral */
+body {
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.aviso {
+  padding: 8px;
+  background-color: #333;
+  color: white;
+  font-size: 14px;
+}
+
+.marca {
+  color: #9c5548;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.titulo-secao {
+  margin-bottom: 15px;
+  color: #633d35;
+}
+
+/* Imagens da página inicial */
+.foto-carrossel {
+  height: 450px;
+  object-fit: cover;
+  filter: brightness(65%);
+}
+
+.carousel-caption {
+  bottom: 25%;
+}
+
+.foto-produto {
+  height: 260px;
+  object-fit: cover;
+}
+
+.preco {
+  font-weight: bold;
+}
+
+/* Formulário */
+.formulario {
+  max-width: 650px;
+  margin-top: 25px;
+}
+
+/* Rodapé */
+.rodape {
+  margin-top: 30px;
+  background-color: #f2eee9;
+}
+
+/* Ajustes para telas pequenas */
+@media (max-width: 576px) {
+  .foto-carrossel {
+    height: 350px;
+  }
+
+  .carousel-caption {
+    bottom: 15%;
+  }
+
+  .carousel-caption h1,
+  .carousel-caption h2 {
+    font-size: 25px;
+  }
+}
